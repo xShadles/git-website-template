@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0;
+}    
+
+
+body {
+  height: 160vh;
+  background-color: rgb(213, 203, 198);
+}
+
+header {
+    width: 100%;
+    height: 14%;
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: rgb(215, 184, 149);
+    z-index: 1;
+    top: 0%;
+}
+
+h1 {
+    width: 100%;
+    padding: 1em;
+    align-self: flex-start;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+p{  
+    padding: 1em;
+    margin-left: 1%;
+    bottom: 30%;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: color 0.1 ease;
+}
+
+p:hover {
+    color: red;
+}
+
+box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+}
+
+aside {
+    width: 15%;
+    height: 80%;
+    position: relative;
+    left: 2%;
+    border: 2px solid black;
+    background-color: rgb(53, 145, 85);
+}
+
+insidebox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+}
+
+article {
+    width: 80%;
+    height: 20%;
+    margin: 8%;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: rgb(173, 143, 107);
+}
+
+main {
+    width: 80%;
+    height: 20%;
+    margin: 8%;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: rgb(173, 143, 107);
+}
+
+aside2 {
+    width: 15%;
+    height: 80%;
+    position: relative;
+    right: 2%;
+    border: 2px solid black;
+    background-color: rgb(53, 145, 85);
+    
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    bottom: 0%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: rgb(215, 184, 149);
+}
+
+@media (max-width: 768px) {
+
+    box {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 90%;
+        height: 20%;
+        margin: 10%;
+    }
+
+    aside2 {
+        width: 90%;
+        height: 20%;
+        margin: 10%;
+    }
+
+    
+
+}
+
+
